@@ -8,6 +8,6 @@ function returnLargestElement(arr) {
   }
   return largestNum;
 }
-let arr = [1, 4, 7, 2, 4, 6, 8, 2, 1, 3, 5, 6];
+let arr = [-9, -19, -3];
 let result = returnLargestElement(arr);
 console.log(`Largest Element is ${result}`);
