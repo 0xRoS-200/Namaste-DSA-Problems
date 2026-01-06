@@ -7,6 +7,7 @@ function findElement(arr, element) {
       Hashmap.set(arr[i], i);
     }
   }
+  console.log(Hashmap) // check how hash map looks like Key-value pairs
   if (Hashmap.has(element)) {
     return Hashmap.get(element);
   } else {
